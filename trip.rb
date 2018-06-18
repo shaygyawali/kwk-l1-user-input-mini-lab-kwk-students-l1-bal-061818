@@ -6,10 +6,10 @@ puts "Let's plan your trip! Where would you like to stay?"
 # Then, set a variable called stay to get the user's input. Make sure to capitilize that input.
 
 stay = gets.chomp.capitalize  #don't forget to Capitilize the input
-puts "Cool! I have a friend who went to #{stay}."
+puts "Cool! I have a friend who went to #{stay}. So, what would you like to eat?"
 # Do the same thing with `eats` and one last time with `nights`, capturing their text input and storing them to the respective local variable
 eats = gets.chomp.capitalize
-puts "mmMMmmM "
+puts "mmMMmmM I love #{eats}. Alright, last ques "
 
 
 # Lastly, puts it all back by interpolating these values in a string.
